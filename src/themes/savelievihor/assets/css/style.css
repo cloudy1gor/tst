@@ -1,0 +1,52 @@
+main {
+    min-height: 70vh;
+}
+
+.header__branding, .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 1px solid #000;
+    margin: 10px 10px 30px 10px;
+}
+
+.sidebar, .form {
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    max-width: 50%;
+}
+
+.footer {
+    border-bottom: 0;
+    border-top: 1px solid #000;
+    margin-bottom: 0;
+}
+
+/*
+Posts card style start
+*/
+
+.posts__card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 300px;
+    border-radius: 5px;
+  }
+  
+  .posts__card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .posts__info {
+    padding: 2px 16px;
+  }
+
+  /*
+Posts card style end
+*/
