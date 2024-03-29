@@ -1,4 +1,4 @@
-## WordPress + Docker Boilerplate
+## Wp test theme
 
 ### Requirements
 - WSL2
@@ -11,3 +11,5 @@
 3. Run `make docker.wp.bash` - to run the terminal inside the Docker WordPress Container
 4. Run `sh /var/www/html/wp-config/scripts/install_plugins.sh` - To install default plugins. 
 5. Import the website backup file from live or staging environment. Don't forget to set up the right domain names.
+
+### The theme files are located in the src/themes/ directory.
